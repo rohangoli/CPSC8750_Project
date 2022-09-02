@@ -9,6 +9,7 @@ News & Trends Website
 2. Deatiled News Page - https://www.yahoo.com/news/sarah-palins-election-loss-sen-142451494.html
 3. Pro User subscription Page - https://getbootstrap.com/docs/5.2/examples/checkout/
 4. Login/SignUp Page
+changes made by rahul
 
 BootStrap Template
 ===================
