@@ -71,9 +71,6 @@
       }
     </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet">
   </head>
   <body class="bg-light">
     <header>
@@ -148,9 +145,9 @@
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
+          <span class="badge bg-primary rounded-pill">1</span>
         </h4>
-        <ul class="list-group mb-3">
+        <ul id="product-list" class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
               <h6 class="my-0">News Subscription</h6>
@@ -173,9 +170,10 @@
 
         <form class="card p-2">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
+            <input id="promo_code" type="text" class="form-control" placeholder="Promo code">
+            <button id="redeem" type="button" class="btn btn-secondary">Redeem</button>
           </div>
+          <span id="invalid_code" style="color:red; display: none;">Invalid Promo Code</span>
         </form>
       </div>
       <div class="col-md-7 col-lg-8">
