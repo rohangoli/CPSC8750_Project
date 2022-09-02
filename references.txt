@@ -1,0 +1,15 @@
+News & Trends Website
+=====================
+1. HomePage - https://www.bbc.com/news
+    Navigation Bar - BS
+    HomePage Header - BS
+    Couple of News Tiles 
+    https://getbootstrap.com/docs/5.2/examples/album/
+    https://getbootstrap.com/docs/5.2/examples/blog/
+2. Deatiled News Page - https://www.yahoo.com/news/sarah-palins-election-loss-sen-142451494.html
+3. Pro User subscription Page - https://getbootstrap.com/docs/5.2/examples/checkout/
+4. Login/SignUp Page
+
+BootStrap Template
+===================
+https://getbootstrap.com/docs/5.2/examples/
