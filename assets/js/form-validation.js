@@ -20,7 +20,7 @@
 
 document.getElementById("redeem").onclick = function() {
   const code = document.getElementById("promo_code").value;
-  if (code == "8570"){
+  if (code == "SignUp"){
     document.getElementById("product-list").children[1].setAttribute("style", "display: block !important;");
     document.getElementById("invalid_code").style.display = "none";
     document.getElementById("final").innerHTML = "$7";
